@@ -19,4 +19,4 @@ build:
 	docker build -t test_server .
 
 run:
-	docker run -ti -p 8080:8080 --rm --name test-api test-api
+	docker run -ti -p 80:80 --rm --name test-api test_server
